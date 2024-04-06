@@ -17,13 +17,6 @@ public class MyPanel extends JPanel {
     JRadioButton nearlySorted;
     JRadioButton reversed;
     JRadioButton fewUnique;
-
-    Dimension buttonSize = new Dimension(150, 40);
-    random.setPreferredSize(buttonSize);
-    random.setPreferredSize(buttonSize);
-    nearlySorted.setPreferredSize(buttonSize);
-    reversed.setPreferredSize(buttonSize);
-    fewUnique.setPreferredSize(buttonSize);
     
     JSlider slider;
     JTextField sliderValueTextField;
